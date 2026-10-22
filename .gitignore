@@ -1,0 +1,21 @@
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary & backup files
+*.bak
+*.tmp
+*~
+
+# Python cache (if any local scripts executed)
+__pycache__/
+*.py[cod]
+*$py.class
