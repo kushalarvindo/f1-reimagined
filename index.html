@@ -1524,7 +1524,7 @@
         /* Footer */
         footer {
             background-color: var(--crust);
-            padding: 80px 40px 100px 40px;
+            padding: 80px 40px 130px 40px;
             border-top: 1px solid rgba(255, 255, 255, 0.06);
             text-align: center;
             position: relative;
@@ -1540,9 +1540,28 @@
         }
 
         .footer-sub {
-            color: var(--overlay0);
-            font-size: 0.9rem;
+            color: var(--subtext0);
+            font-size: 0.95rem;
             margin: 0;
+        }
+
+        .footer-legal {
+            color: var(--overlay0);
+            font-size: 0.8rem;
+            opacity: 0.6;
+            max-width: 720px;
+            margin: 10px auto 0 auto;
+            line-height: 1.6;
+        }
+
+        .footer-legal a {
+            color: inherit;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+        .footer-legal a:hover {
+            color: #fff;
         }
 
         @media (max-width: 1200px) {
@@ -4934,7 +4953,8 @@
 <!-- Footer -->
     <footer>
         <div class="footer-quote">"Lights out and away we go!"</div>
-        <p class="footer-sub">&copy; 2026 Formula 1 World Championship Limited. Max Verstappen is the GOAT!</p>
+        <p class="footer-sub">Unofficial Fan Project &bull; Made by <strong>Kushal Arvind ;)</strong> for the love of the sport!</p>
+        <p class="footer-legal">This is a fun, free project built under the <a href="https://github.com/kushalarvindo/f1-reimagined/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>. Formula 1, F1, and all team names are trademarks of Formula One Licensing B.V. (And yes, Max Verstappen is the GOAT! 🏆)</p>
     </footer>
 
     <!-- GSAP, ScrollTrigger, Flip & Lenis Cinematic Motion Controller -->
